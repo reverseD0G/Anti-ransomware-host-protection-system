@@ -1,0 +1,28 @@
+项目简要说明(进一步说明请查阅个没项目中的项目介绍与readme)
+
+RwtKit 目录是应用层公用的一些代码
+
+RWTService 是服务进程代码,也就是应用层中枢代码,与驱动通讯、与界面通讯、
+与守护进程互锁等等。
+
+RWTKrlSvc 服务进程与驱动通讯的中间件
+
+Drivers/RWTKrl 驱动模块核心业务代码
+
+Drivers/RWTBase 驱动模块框架代码
+
+RWTerminator 界面进程代码。与用户互交。
+
+RWTClean 清除模块相关代码
+
+RWTWatcher 互锁进程代码  （完成）
+
+GUIInterFace 界面代码与服务进程通讯的中间件
+
+RWTUnInstall 卸载包代码   (完成）
+
+RWTerminatorSetup 安装包代码
+
+
+%s\\Cfg\\gcfg.dat   备份缓冲区文件
+%s\\Cfg\\RWACh.dat  陷阱配置文件

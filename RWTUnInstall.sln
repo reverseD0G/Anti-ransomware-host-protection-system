@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RWTUnInstall", "RWTUnInstall\RWTUnInstall.vcproj", "{458F6FE9-1406-4716-A773-8ABC3A76A481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{458F6FE9-1406-4716-A773-8ABC3A76A481}.Debug|Win32.ActiveCfg = Debug|Win32
+		{458F6FE9-1406-4716-A773-8ABC3A76A481}.Debug|Win32.Build.0 = Debug|Win32
+		{458F6FE9-1406-4716-A773-8ABC3A76A481}.Release|Win32.ActiveCfg = Release|Win32
+		{458F6FE9-1406-4716-A773-8ABC3A76A481}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

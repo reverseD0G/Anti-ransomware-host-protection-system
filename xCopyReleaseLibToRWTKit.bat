@@ -1,0 +1,1 @@
+copy ..\bin\Release\*.lib .\RWTKit\*.* /y

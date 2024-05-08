@@ -1,0 +1,811 @@
+1>------ 已启动全部重新生成: 项目: RWTClean, 配置: Release Win32 ------
+1>正在删除项目“RWTClean”(配置“Release|Win32”)的中间文件和输出文件
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>stdafx.cpp
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>..\RwtKit\Logger.cpp(295) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>Registry.cpp
+1>..\RwtKit\Registry.cpp(134) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>md5.cpp
+1>RWTBootFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(26) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(41) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(50) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(84) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(99) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(24) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(21) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(86) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTBootFram.cpp(42) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTBootFram.cpp(76) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTBootFram.cpp(105) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTBootFram.cpp(207) : warning C4533: “goto md5”跳过了“Exit0”的初始化操作
+1>        .\RWTBootFram.cpp(198) : 参见“md5”的声明
+1>        .\RWTBootFram.cpp(207) : 参见“Exit0”的声明
+1>.\RWTBootFram.cpp(207) : warning C4533: “goto md5”跳过了“Exit0”的初始化操作
+1>        .\RWTBootFram.cpp(198) : 参见“md5”的声明
+1>        .\RWTBootFram.cpp(207) : 参见“Exit0”的声明
+1>.\RWTBootFram.cpp(207) : warning C4533: “goto md5”跳过了“Exit0”的初始化操作
+1>        .\RWTBootFram.cpp(198) : 参见“md5”的声明
+1>        .\RWTBootFram.cpp(207) : 参见“Exit0”的声明
+1>.\RWTBootFram.cpp(263) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTBootFram.cpp(389) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTBootFram.cpp(393) : warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+1>.\RWTBootFram.cpp(503) : warning C4311: “类型转换”: 从“PUCHAR”到“ULONG”的指针截断
+1>.\RWTBootFram.cpp(503) : warning C4312: “类型转换”: 从“unsigned long”转换到更大的“PUCHAR”
+1>.\RWTBootFram.cpp(601) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTBootFram.cpp(643) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTBootFram.cpp(702) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(245) : 参见“wcscat”的声明
+1>.\RWTBootFram.cpp(724) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(359) : 参见“wcsicmp”的声明
+1>.\RWTBootFram.cpp(744) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(245) : 参见“wcscat”的声明
+1>.\RWTBootFram.cpp(862) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTBootFram.cpp(912) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(245) : 参见“wcscat”的声明
+1>RegSaveStore.cpp
+1>FileSupport.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(24) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(83) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(101) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(21) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(86) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSupport.cpp(73) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>.\FileSupport.cpp(94) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>.\FileSupport.cpp(252) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(245) : 参见“wcscat”的声明
+1>.\FileSupport.cpp(341) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSupport.cpp(402) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(448) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(455) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(460) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(465) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(495) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(502) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(504) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(508) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(529) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(531) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(603) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(607) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(619) : warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+1>        .\FileSupport.cpp(614) : 忽略“i”的定义
+1>        .\FileSupport.cpp(609) : 使用“i”的定义
+1>.\FileSupport.cpp(620) : warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+1>        .\FileSupport.cpp(614) : 忽略“i”的定义
+1>        .\FileSupport.cpp(609) : 使用“i”的定义
+1>.\FileSupport.cpp(660) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(663) : warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+1>.\FileSupport.cpp(864) : warning C4533: “goto stLocalNowTime”跳过了“Exit0”的初始化操作
+1>        .\FileSupport.cpp(856) : 参见“stLocalNowTime”的声明
+1>        .\FileSupport.cpp(864) : 参见“Exit0”的声明
+1>.\FileSupport.cpp(1035) : warning C4102: “Exit0”: 未引用的标签
+1>.\FileSupport.cpp(1096) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(1103) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSupport.cpp(1109) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(1173) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(1181) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(1188) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(1194) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(1213) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(74) : 参见“strcpy”的声明
+1>.\FileSupport.cpp(1252) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSupport.cpp(1258) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(1260) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(1264) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\FileSupport.cpp(1285) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(1287) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\FileSupport.cpp(1339) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSupport.cpp(1372) : warning C4018: “<”: 有符号/无符号不匹配
+1>RWTClean.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(24) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(83) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTClean.h(101) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(21) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\FileSupport.h(86) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(26) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(41) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtclean\RWTBootFram.h(50) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTClean.cpp(64) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTClean.cpp(98) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTClean.cpp(120) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\RWTClean.cpp(123) : warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(79) : 参见“strcat”的声明
+1>.\RWTClean.cpp(125) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTClean.cpp(225) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>   正在创建库 ..\..\bin\Release\RWTClean.lib 和对象 ..\..\bin\Release\RWTClean.exp
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTClean - 0 个错误，87 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTKrlSvc, 配置: Release Win32 ------
+1>正在删除项目“RWTKrlSvc”(配置“Release|Win32”)的中间文件和输出文件
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>stdafx.cpp
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>..\RwtKit\Logger.cpp(295) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>CryptoKey.cpp
+1>.\CryptoKey.cpp(64) : warning C4018: “<”: 有符号/无符号不匹配
+1>RWTBase.cpp
+1>.\RWTBase.cpp(83) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTBase.cpp(92) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>.\RWTBase.cpp(140) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(252) : 参见“wcscpy”的声明
+1>.\RWTBase.cpp(227) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>FslTool.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkrlsvc\..\RwtKit\KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FslTool.cpp(78) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(252) : 参见“wcscpy”的声明
+1>.\FslTool.cpp(167) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>FslProtect.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkrlsvc\..\RwtKit\KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>FslHandler.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkrlsvc\..\RwtKit\KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>RWTKrlSvc.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkrlsvc\..\RwtKit\KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>   正在创建库 ..\..\bin\Release\RWTKrlSvc.lib 和对象 ..\..\bin\Release\RWTKrlSvc.exp
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTKrlSvc - 0 个错误，13 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: GUIInterFace, 配置: Release Win32 ------
+1>正在删除项目“GUIInterFace”(配置“Release|Win32”)的中间文件和输出文件
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>stdafx.cpp
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>ServicFram.cpp
+1>.\ServicFram.cpp(53) : warning C4102: “Exit0”: 未引用的标签
+1>.\ServicFram.cpp(71) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\ServicFram.cpp(194) : warning C4102: “Exit0”: 未引用的标签
+1>.\ServicFram.cpp(436) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\ServicFram.cpp(465) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\ServicFram.cpp(508) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\ServicFram.cpp(555) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>SettingFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\SettingFram.h(16) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\SettingFram.h(29) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\SettingFram.h(99) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\SettingFram.h(166) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\SettingFram.h(181) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>Registry.cpp
+1>..\RwtKit\Registry.cpp(134) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>md5.cpp
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>..\RwtKit\Logger.cpp(295) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>AES.cpp
+1>simpleMsgCli.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>MsgInterface.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\../RwtKit/GUIMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>GUIInterFace.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(318) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(331) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(440) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(548) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(563) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\guiinterface\..\RwtKit\GUIInterFace.h(618) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\GUIInterFace.cpp(237) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\GUIInterFace.cpp(248) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\GUIInterFace.cpp(267) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\GUIInterFace.cpp(290) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>   正在创建库 ..\..\bin\Release\GUIInterFace.lib 和对象 ..\..\bin\Release\GUIInterFace.exp
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>GUIInterFace - 0 个错误，27 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTService, 配置: Release Win32 ------
+1>正在删除项目“RWTService”(配置“Release|Win32”)的中间文件和输出文件
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>stdafx.cpp
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>RWTCleanFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RWTClean\RWTClean.h(24) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RWTClean\RWTClean.h(83) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RWTClean\RWTClean.h(101) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTCleanFram.cpp(177) : warning C4102: “Exit0”: 未引用的标签
+1>RWTKrlFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkrlsvc\..\RwtKit\KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTKrlFram.cpp(24) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTKrlFram.cpp(38) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RWTKrlFram.cpp(82) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(154) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1108) : 参见“wcsnicmp”的声明
+1>.\RWTKrlFram.cpp(200) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTKrlFram.cpp(238) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\RWTKrlFram.cpp(400) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(431) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(458) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(494) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(692) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTKrlFram.cpp(730) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTKrlFram.cpp(751) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(746) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(751) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(772) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(767) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(772) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(797) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(792) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(797) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(822) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(817) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(822) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(863) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(858) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(863) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(884) : warning C4533: “goto SysFileRule”跳过了“Exit0”的初始化操作
+1>        .\RWTKrlFram.cpp(879) : 参见“SysFileRule”的声明
+1>        .\RWTKrlFram.cpp(884) : 参见“Exit0”的声明
+1>.\RWTKrlFram.cpp(913) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(950) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTKrlFram.cpp(1001) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTKrlFram.cpp(1011) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTKrlFram.cpp(1021) : warning C4102: “Exit0”: 未引用的标签
+1>.\RWTKrlFram.cpp(1114) : warning C4102: “Exit0”: 未引用的标签
+1>md5.cpp
+1>AES.cpp
+1>ServiceFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(61) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(78) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(92) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(105) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(119) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\SettingObj.h(126) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\ServiceFram.cpp(313) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1000) : 参见“wcscpy”的声明
+1>Registry.cpp
+1>..\RwtKit\Registry.cpp(134) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>RegFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\RegFram.cpp(67) : warning C4102: “Exit0”: 未引用的标签
+1>GUISMHandler.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\GUISMHandler.cpp(21) : warning C4244: “=”: 从“ULONG”转换到“BOOLEAN”，可能丢失数据
+1>.\GUISMHandler.cpp(35) : warning C4244: “=”: 从“ULONG”转换到“BOOLEAN”，可能丢失数据
+1>.\GUISMHandler.cpp(88) : warning C4244: “=”: 从“ULONG”转换到“BOOLEAN”，可能丢失数据
+1>.\GUISMHandler.cpp(485) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\GUISMHandler.cpp(537) : warning C4244: “=”: 从“ULONG”转换到“BOOLEAN”，可能丢失数据
+1>GUIFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/KernelPublic.h(115) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\GUIFram.cpp(104) : warning C4102: “Exit0”: 未引用的标签
+1>.\GUIFram.cpp(170) : warning C4102: “Exit0”: 未引用的标签
+1>.\GUIFram.cpp(240) : warning C4102: “Exit0”: 未引用的标签
+1>simpleMsgSvc.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlconv.h(705) : warning C4995: “wcscpy”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlconv.h(713) : warning C4995: “wcscat”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\cstringt.h(258) : warning C4995: “vsprintf”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\cstringt.h(562) : warning C4995: “vswprintf”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(440) : warning C4995: “wvsprintfA”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(455) : warning C4995: “wvsprintfA”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(470) : warning C4995: “wvsprintfA”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(906) : warning C4995: “wvsprintfW”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(921) : warning C4995: “wvsprintfW”: 名称被标记为 #pragma deprecated
+1>D:\Microsoft Visual Studio 9.0\VC\atlmfc\include\atlstr.h(937) : warning C4995: “wvsprintfW”: 名称被标记为 #pragma deprecated
+1>rwtProcess.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\rwtProcess.cpp(25) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\rwtProcess.cpp(39) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\rwtProcess.cpp(68) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\rwtProcess.cpp(82) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(356) : warning C4533: “goto TempTokenManLabel”跳过了“Exit0”的初始化操作
+1>        .\rwtProcess.cpp(339) : 参见“TempTokenManLabel”的声明
+1>        .\rwtProcess.cpp(356) : 参见“Exit0”的声明
+1>.\rwtProcess.cpp(572) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\rwtProcess.cpp(731) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\rwtProcess.cpp(832) : warning C4018: “<”: 有符号/无符号不匹配
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>..\RwtKit\Logger.cpp(295) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>GenFun.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\GenFun.cpp(185) : warning C4533: “goto iSB”跳过了“Exit0”的初始化操作
+1>        .\GenFun.cpp(172) : 参见“iSB”的声明
+1>        .\GenFun.cpp(185) : 参见“Exit0”的声明
+1>.\GenFun.cpp(185) : warning C4533: “goto FEOFI”跳过了“Exit0”的初始化操作
+1>        .\GenFun.cpp(169) : 参见“FEOFI”的声明
+1>        .\GenFun.cpp(185) : 参见“Exit0”的声明
+1>.\GenFun.cpp(185) : warning C4533: “goto iSB”跳过了“Exit0”的初始化操作
+1>        .\GenFun.cpp(172) : 参见“iSB”的声明
+1>        .\GenFun.cpp(185) : 参见“Exit0”的声明
+1>.\GenFun.cpp(185) : warning C4533: “goto FEOFI”跳过了“Exit0”的初始化操作
+1>        .\GenFun.cpp(169) : 参见“FEOFI”的声明
+1>        .\GenFun.cpp(185) : 参见“Exit0”的声明
+1>.\GenFun.cpp(286) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\GenFun.cpp(293) : warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(217) : 参见“strnicmp”的声明
+1>FileOperation.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>..\RwtKit\FileOperation.cpp(36) : warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+1>..\RwtKit\FileOperation.cpp(40) : warning C4102: “Exit0”: 未引用的标签
+1>SettingObj.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(61) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(78) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(92) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(105) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(119) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtkit\SettingObj.h(126) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>..\RwtKit\SettingObj.cpp(114) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(115) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1108) : 参见“wcsnicmp”的声明
+1>..\RwtKit\SettingObj.cpp(126) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(127) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1108) : 参见“wcsnicmp”的声明
+1>..\RwtKit\SettingObj.cpp(138) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(139) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1108) : 参见“wcsnicmp”的声明
+1>..\RwtKit\SettingObj.cpp(150) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(151) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1108) : 参见“wcsnicmp”的声明
+1>..\RwtKit\SettingObj.cpp(172) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>..\RwtKit\SettingObj.cpp(184) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>..\RwtKit\SettingObj.cpp(196) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>..\RwtKit\SettingObj.cpp(208) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>..\RwtKit\SettingObj.cpp(262) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>..\RwtKit\SettingObj.cpp(358) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(381) : warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+1>..\RwtKit\SettingObj.cpp(390) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(408) : warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+1>..\RwtKit\SettingObj.cpp(414) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(439) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(472) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(500) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(529) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(557) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(782) : warning C4018: “>=”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(897) : warning C4018: “>”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(936) : warning C4018: “>”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(993) : warning C4018: “<”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(1012) : warning C4018: “<”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(1027) : warning C4018: “<”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(1044) : warning C4018: “<”: 有符号/无符号不匹配
+1>..\RwtKit\SettingObj.cpp(1096) : warning C4102: “Exit0”: 未引用的标签
+1>..\RwtKit\SettingObj.cpp(1109) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1112) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1116) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1120) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1131) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1149) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1168) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1186) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>..\RwtKit\SettingObj.cpp(1232) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>FileSettingFram.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(61) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(78) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(92) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(105) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(119) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\../RwtKit/SettingObj.h(126) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSettingFram.cpp(226) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(237) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(255) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSettingFram.cpp(267) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSettingFram.cpp(323) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1000) : 参见“wcscpy”的声明
+1>.\FileSettingFram.cpp(324) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(334) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1000) : 参见“wcscpy”的声明
+1>.\FileSettingFram.cpp(335) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(351) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(408) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(423) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(447) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(460) : warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(476) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(605) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(631) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(642) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(659) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(663) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(667) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(701) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(740) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(839) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(1180) : warning C4102: “Exit0”: 未引用的标签
+1>.\FileSettingFram.cpp(1291) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSettingFram.cpp(1419) : warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1000) : 参见“wcscpy”的声明
+1>.\FileSettingFram.cpp(1484) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\FileSettingFram.cpp(1491) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(1497) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1499) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1515) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1516) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1554) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\FileSettingFram.cpp(1559) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1561) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1577) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1578) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1626) : warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+1>.\FileSettingFram.cpp(1708) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(1764) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(1983) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(2009) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2013) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2017) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2021) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2051) : warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(993) : 参见“wcscat”的声明
+1>.\FileSettingFram.cpp(2077) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2081) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2085) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2089) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\wchar.h(1107) : 参见“wcsicmp”的声明
+1>.\FileSettingFram.cpp(2235) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\FileSettingFram.cpp(2333) : warning C4018: “<”: 有符号/无符号不匹配
+1>RWTService.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwtservice\..\RwtKit\GuiMsgDef.h(379) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTService - 0 个错误，197 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTWatcher, 配置: Release Win32 ------
+1>正在删除项目“RWTWatcher”(配置“Release|Win32”)的中间文件和输出文件
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>stdafx.cpp
+1>正在编译...
+1>cl: 命令行 warning D9035 :“Wp64”选项已否决，并将在将来的版本中移除
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>..\RwtKit\Logger.cpp(295) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>WatcherMain.cpp
+1>.\WatcherMain.cpp(45) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\WatcherMain.cpp(59) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(359) : 参见“wcsicmp”的声明
+1>.\WatcherMain.cpp(194) : warning C4533: “goto SDescription”跳过了“Exit0”的初始化操作
+1>        .\WatcherMain.cpp(156) : 参见“SDescription”的声明
+1>        .\WatcherMain.cpp(194) : 参见“Exit0”的声明
+1>.\WatcherMain.cpp(194) : warning C4533: “goto SDescription”跳过了“Exit0”的初始化操作
+1>        .\WatcherMain.cpp(156) : 参见“SDescription”的声明
+1>        .\WatcherMain.cpp(194) : 参见“Exit0”的声明
+1>.\WatcherMain.cpp(121) : warning C4101: “dwErrorCode”: 未引用的局部变量
+1>.\WatcherMain.cpp(436) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\WatcherMain.cpp(440) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(360) : 参见“wcsnicmp”的声明
+1>.\WatcherMain.cpp(487) : warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+1>.\WatcherMain.cpp(491) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(360) : 参见“wcsnicmp”的声明
+1>.\WatcherMain.cpp(548) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\WatcherMain.cpp(562) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(359) : 参见“wcsicmp”的声明
+1>.\WatcherMain.cpp(603) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\WatcherMain.cpp(617) : warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(359) : 参见“wcsicmp”的声明
+1>RWTWatcher.cpp
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTWatcher - 0 个错误，15 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTerminator, 配置: Release Win32 ------
+1>正在删除项目“RWTerminator”(配置“Release|Win32”)的中间文件和输出文件
+1>Building SoUI Resource
+1>"D:\soui\tools\uiresbuilder.exe"  -i "c:\Users\hbc\Desktop\source5-4\source\trunk\RWTerminator\uires\uires.idx" -p uires -r .\res\soui_res.rc2 -h .\res\resource.h idtable
+1>build .\res\soui_res.rc2 succeed!
+1>.\res\resource.h not need to update
+1>正在编译...
+1>stdafx.cpp
+1>LIB_SOUI_COM
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwterminator\..\RwtKit\GUIInterFace.h(318) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>正在编译...
+1>MainDlg.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwterminator\LVDataCtrl.hpp(274) : warning C4018: “<”: 有符号/无符号不匹配
+1>Base64.cpp
+1>AES.cpp
+1>Logger.cpp
+1>..\RwtKit\Logger.cpp(138) : warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(215) : 参见“stricmp”的声明
+1>SSkinGif.cpp
+1>SSkinAPNG.cpp
+1>SGifPlayer.cpp
+1>UIManger.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwterminator\LVDataCtrl.hpp(274) : warning C4018: “<”: 有符号/无符号不匹配
+1>CommonFun.cpp
+1>.\CommonFun.cpp(12) : warning C4018: “<=”: 有符号/无符号不匹配
+1>.\CommonFun.cpp(495) : warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(221) : 参见“strupr”的声明
+1>TextButton.cpp
+1>SSwitch.cpp
+1>SSliderSelect.cpp
+1>SSCheckBtn.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwterminator\LVDataCtrl.hpp(274) : warning C4018: “<”: 有符号/无符号不匹配
+1>RWTRPSel.cpp
+1>RWTLeftTreeSon.cpp
+1>RWTLeftTreeFather.cpp
+1>RWTDiskSel.cpp
+1>DropDownCombo.cpp
+1>SShellNotifyIcon.cpp
+1>RWTerminator.cpp
+1>c:\users\hbc\desktop\source5-4\source\trunk\rwterminator\LVDataCtrl.hpp(274) : warning C4018: “<”: 有符号/无符号不匹配
+1>.\RWTerminator.cpp(167) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(360) : 参见“wcsnicmp”的声明
+1>.\RWTerminator.cpp(200) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(360) : 参见“wcsnicmp”的声明
+1>.\RWTerminator.cpp(217) : warning C4996: 'wcsnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _wcsnicmp. See online help for details.
+1>        D:\Microsoft Visual Studio 9.0\VC\include\string.h(360) : 参见“wcsnicmp”的声明
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>MainDlg.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTerminator - 0 个错误，11 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTUnInstall, 配置: Release Win32 ------
+1>正在删除项目“RWTUnInstall”(配置“Release|Win32”)的中间文件和输出文件
+1>Building SoUI Resource
+1>"D:\soui\tools\uiresbuilder.exe"  -i "c:\Users\hbc\Desktop\source5-4\source\trunk\RWTUnInstall\uires\uires.idx" -p uires -r .\res\soui_res.rc2 -h .\res\resource.h idtable
+1>build .\res\soui_res.rc2 succeed!
+1>build .\res\resource.h succeed!
+1>正在编译...
+1>stdafx.cpp
+1>LIB_SOUI_COM
+1>正在编译...
+1>MainDlg.cpp
+1>md5.cpp
+1>DeleteSetting.cpp
+1>.\DeleteSetting.cpp(133) : warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+1>        当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+1>.\DeleteSetting.cpp(156) : warning C4018: “<”: 有符号/无符号不匹配
+1>CommonFun.cpp
+1>.\CommonFun.cpp(401) : warning C4018: “<”: 有符号/无符号不匹配
+1>AES.cpp
+1>SSkinGif.cpp
+1>SSkinAPNG.cpp
+1>SGifPlayer.cpp
+1>RWTUnInstall.cpp
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>MainDlg.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTUnInstall - 0 个错误，3 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: RWTerminatorSetup, 配置: Release Win32 ------
+1>正在删除项目“RWTerminatorSetup”(配置“Release|Win32”)的中间文件和输出文件
+1>Building SoUI Resource
+1>"D:\soui\tools\uiresbuilder.exe"  -i "c:\Users\hbc\Desktop\source5-4\source\trunk\RWTerminatorSetup\uires\uires.idx" -p uires -r .\res\soui_res.rc2 -h .\res\resource.h idtable
+1>build .\res\soui_res.rc2 succeed!
+1>build .\res\resource.h succeed!
+1>正在编译...
+1>stdafx.cpp
+1>LIB_SOUI_COM
+1>正在编译...
+1>MainDlg.cpp
+1>Registry.cpp
+1>md5.cpp
+1>CommonFun.cpp
+1>SSkinGif.cpp
+1>SSkinAPNG.cpp
+1>SGifPlayer.cpp
+1>SSCheckBtn.cpp
+1>RWTerminatorSetup.cpp
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>MainDlg.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+1>正在生成代码
+1>已完成代码的生成
+1>正在嵌入清单...
+1>..\RwtKit\Admin.manifest : manifest authoring warning 81010002: Unrecognized Element "compatibility" in namespace "urn:schemas-microsoft-com:compatibility.v1".
+1>..\RwtKit\NoAdmin.manifest : manifest authoring warning 81010002: Unrecognized Element "compatibility" in namespace "urn:schemas-microsoft-com:compatibility.v1".
+1>生成日志保存在“file://c:\Users\hbc\Desktop\source5-4\source\bin\Release\Release\BuildLog.htm”
+1>RWTerminatorSetup - 0 个错误，2 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
